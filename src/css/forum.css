@@ -1,0 +1,70 @@
+.Comment_background{
+
+  width: 1200px;
+  height: 120px;
+  background-color: #f0f0f0; 
+  border: 1px solid #000000; 
+  margin-top: 20px;
+  display: flex;
+  border-radius: 3%;
+}
+
+.title{
+  text-align: center;
+}
+
+.Comment_background:hover {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* 在悬浮状态下添加阴影效果 */
+}
+
+.id_style{
+  margin-top: 10px;
+  margin-left: 20px;
+  text-align: center;
+}
+
+.eid_style{
+  margin-top: 20px;
+  margin-left: 40px;
+  display: flex;
+  flex-direction: column; 
+}
+
+.basic, .comment_main {
+  flex: 1;
+}
+
+.basic{
+  width: 100px;
+}
+
+.comment_main{
+  margin-left: 80px;
+}
+
+.head{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border-bottom: 1px solid black;
+    position:relative;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.divider {
+    width: 1px; 
+    background-color: #c4c4c4;
+    height: 100%; 
+    margin: 0 0 0 -500px;
+}
+
+.user{
+display: flex;
+margin-left: 10px;
+}
+
+.icon{
+  margin-right: 50px;
+  margin-top: 50px;
+}

@@ -1,0 +1,27 @@
+/* styles.css */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #001529;
+    padding: 0 20px;
+    color: white;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.footer {
+    text-align: center;
+    background-color: #001529;
+    color: white;
+    padding: 20px;
+}
+
+.site-layout-background {
+    background: #fff;
+}
+

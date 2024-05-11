@@ -1,0 +1,49 @@
+/* CommunicateForum.css */
+
+.top {
+    display: flex; /* Set display to flex for horizontal layout */
+    justify-content: space-between; /* Align items to left and right */
+    align-items: center; /* Center items vertically */
+    height: 50px;
+    width: 100%;
+    background-color: #ddd;
+}
+
+.top ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.top ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.top button {
+    background-color: rgb(201, 236, 210);
+    border: none;
+    border-radius: 15px;
+}
+
+
+/* Pagination.css */
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.pagination a {
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+    margin: 0 4px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.pagination a.active {
+    background-color: #ccc;
+}
